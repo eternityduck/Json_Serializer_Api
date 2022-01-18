@@ -6,20 +6,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4056ee64-92bc-468b-aeaf-35f9c5415680" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/BLL/Interfaces/IPersonService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BLL/Services/PersonService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DAL/AppContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DAL/Interfaces/IPersonRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DAL/Models/Address.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DAL/Models/Person.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DAL/Repositories/PersonRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Json_Serializer_Api/Controllers/PersonController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Json_Serializer_Api/.idea/discord.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Json_Serializer_Api/.idea/discord.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Json_Serializer_Api/Common/JsonSerializer/Format.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Json_Serializer_Api/Common/JsonSerializer/JsonSerializer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Json_Serializer_Api/Common/JsonSerializer/ValueType.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Json_Serializer_Api/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Json_Serializer_Api/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Json_Serializer_Api.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Json_Serializer_Api.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BLL/Services/PersonService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BLL/Services/PersonService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Json_Serializer_Api/Controllers/PersonController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Json_Serializer_Api/Controllers/PersonController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Json_Serializer_Api/Controllers/WeatherForecastController.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Json_Serializer_Api/Json_Serializer_Api.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Json_Serializer_Api/Json_Serializer_Api.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Json_Serializer_Api/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Json_Serializer_Api/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Json_Serializer_Api/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Json_Serializer_Api/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Json_Serializer_Api/WeatherForecast.cs" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +91,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1642247301820</updated>
-      <workItem from="1642247304458" duration="8401000" />
+      <workItem from="1642247304458" duration="13499000" />
+      <workItem from="1642340735642" duration="105000" />
+      <workItem from="1642514031074" duration="813000" />
+      <workItem from="1642523626199" duration="9268000" />
     </task>
     <servers />
   </component>

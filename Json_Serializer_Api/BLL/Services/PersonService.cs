@@ -1,4 +1,5 @@
 ﻿using BLL.Interfaces;
+using DAL.Interfaces;
 using DAL.Models;
 using DAL.Repositories;
 
@@ -6,9 +7,9 @@ namespace BLL.Services;
 
 public class PersonService : IPersonService
 {
-    private PersonRepository _repository;
+    private readonly IPersonRepository _repository;
 
-    public PersonService(PersonRepository repository)
+    public PersonService(IPersonRepository repository)
     {
         _repository = repository;
     }

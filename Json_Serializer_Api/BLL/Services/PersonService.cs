@@ -1,7 +1,7 @@
 ﻿using BLL.Interfaces;
 using DAL.Interfaces;
 using DAL.Models;
-using DAL.Repositories;
+
 
 namespace BLL.Services;
 
@@ -44,6 +44,7 @@ public class PersonService : IPersonService
     public async Task<long> Add(Person person)
     {
         _repository.InsertPerson(person);
+        _repository.Save();
         var result = await _repository.GetPersonByIdAsync(person.Id);
         return result.Id;
     }
